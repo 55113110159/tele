@@ -8,11 +8,11 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start', 'help'])
 async def welcome(message: types.Message):
-    await message.reply("Hello! Im Gunther Bot, Please follow my YT channel")
+    await message.reply("Hello! Im Maskurniawan Bot, Nice too meed you..!!!")
 
 @dp.message_handler(commands=['logo'])
 async def logo(message: types.Message):
-    await message.answer_photo('https://avatars.githubusercontent.com/u/62240649?v=4')
+    await message.answer_photo('https://avatars.githubusercontent.com/u/110314564?s=96&v=4')
 
 @dp.message_handler()
 async def echo(message: types.Message):
